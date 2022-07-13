@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.dot-child {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  margin-right: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot-child.active {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  margin-right: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.indicators {
+  position: absolute;
+  left: 800px;
+  bottom: 300px;
+  align-items: center;
+}
+.des {
+  text-align: center;
+  margin-top: 40px;
+}
